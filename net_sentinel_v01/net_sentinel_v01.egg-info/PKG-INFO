@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: net_sentinel_v01
+Version: 0.1.0
+Summary: A lightweight cross-platform network activity sentinel (Kali/Linux & Windows) - v0.1
+Author-email: You <you@example.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil>=5.9.0
+Requires-Dist: tomli>=2.0.0
+Requires-Dist: rich>=12.0.0
+Dynamic: license-file
+
+net_sentinel_v01
+----------------
+Lightweight cross-platform network sentinel (v0.1).
+Lightweight cross-platform network sentinel for Linux (Kali) and Windows — v0.1.
+
+## Quickstart (install locally and run with pipx)
+Build and install the project (from project root):
+
+>>>> bash
+python -m pip install --upgrade pip build
+python -m build
+pipx install ./dist/net_sentinel_v01-0.1.0-py3-none-any.whl

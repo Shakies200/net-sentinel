@@ -1,0 +1,2 @@
+[console_scripts]
+net-sentinel = net_sentinel.cli:main
